@@ -1,0 +1,519 @@
+body {
+	text-align: center;
+	font-family: "Lucida Sans Unicode", sans-serif;
+	background-color: #001d61;
+	}
+h1 {
+	padding: 10px 5px;
+	color: #787878;
+	font-weight: lighter;
+	}
+h2 {
+	padding: 10px 5px;
+	color: #c60;
+	}
+h3 {
+	color: #c60;
+	}
+h4 {
+	color: #001d61;
+	}
+h5 {
+	font-style: italic;
+	color: #001d61;
+	font-weight: lighter;
+	}
+
+
+dl dt {
+	padding-left: 0px;
+	}
+dl dd {
+	padding-left: 0px;
+	font-size: 90%;
+	font-style: italic;
+	}
+
+li {
+	padding-left: 10px;
+	margin-left: 10px;
+	list-style-type: none;
+	color: #666;
+	}
+a {
+	text-decoration: none;
+	}
+
+/* vinculos */
+
+a:link {
+	color: #999;
+	}
+a:visited {
+	color: #ccc;
+	}
+a:hover {
+	color: #f96;
+	}
+a:active {
+	color: #f33;
+	}
+a.show {
+	font-size: 110%;
+	font-weight: bold;
+	color: #001d61;
+	}
+a.show:hover {
+	color: #f96;
+	}
+a.show:visited {
+	color: #ccc;
+	}
+
+/* parrafos ----------------------*/
+p {
+	font-size: 80%;
+	}
+p.pempresa:first-letter {
+	font-size: 1.05em;
+	font-weight: bold;
+	color: #001d61;
+	}
+.pempresa {
+	text-align: left;
+	padding: 0px 0px 15px 0px;
+	margin: 5px;
+	color: #3C3C3C;
+	}
+	
+.pie {
+    font-weight: lighter;
+	font-size: small;
+    color: #4B4B4B;
+	}
+
+/* formularios */
+input.boton {
+	width: 100px;
+	height: 50px;
+	font-size: 1.5em;
+	}
+input.boton:focus {
+	width: 100px;
+	height: 50px;
+	font-size: 1.5em;
+	}
+input {
+	height: 50px;
+	}
+input, textarea {
+	width: 250px;
+	font-size: 1em;
+	background-color: #f60;
+	color: #333;
+	border: 3px solid #f93;
+	}
+input:focus, textarea:focus {
+	width: 250px;
+	font-size: 1em;
+	background-color: #f93;
+	color: #001d61;
+	border: 3px solid #f60
+	}
+label {
+	font-size: 1.5em;
+	font-family: Arial, sans-serif;
+	color: #001d61;
+	}
+
+/*-----------------------------------------------------------------------------------------------------------*/
+
+/* Fondo */
+.fondo {
+	z-index: 1;
+	background-image: url(/web/20190605095523im_/http://www.azulfm.com.uy/Images/fondo.gif);
+	background-attachment: fixed;
+	}
+.container {
+	z-index: 2;
+	width: 1000px;
+	margin: 0px auto 0px auto;
+	text-align: left;
+	background-color: #fff;
+	background-image: url(/web/20190605095523im_/http://www.azulfm.com.uy/Images/imago.gif);
+	background-repeat: no-repeat;
+	background-position: bottom left;
+	}
+
+/*-----------------------------------------------------------------------------------------------------------*/
+/* Cabecera */
+.header {
+	background-image: url(/web/20190605095523im_/http://www.azulfm.com.uy/Images/fondo.jpg);
+	width: 1000px;
+	height: 132px;
+	margin: 0px;
+	padding: 0px;
+	border-width: 1px;
+	border-color: #001d61;
+	}
+.fecha {
+	position: relative;
+	top: 100px;
+	left: 10px;
+	font-style: italic;
+	font-size: 1em;
+	font-weight: normal;
+	float: left;
+	color: #001d61;
+	}
+
+.radio {
+	width: 1000px;
+	height: 100px;
+	margin: 0px auto;
+	padding: 0px;
+	border-top-style: hidden;
+	border-color: #001d61;
+	}
+
+/*---------------------------------------------------------------------------------------------------------------------------*/
+/* MENU PRINCIPAL */
+.menu {
+width: 1000px;
+height: 70px;
+background: transparent url('/web/20190605095523im_/http://www.azulfm.com.uy/img/bgmenu.png') repeat-x;
+}
+
+.menu li {
+list-style-type: none;
+float: left;
+text-transform: uppercase;
+font-size: 20px;
+line-height: 80px;
+padding-right: 60px;
+}
+
+.menu li a {
+text-decoration: none;
+color: #ccc;
+display: block  !important;
+position: relative;
+width: 150px !important;
+}
+
+.menu li a:hover {
+color: white;
+}
+
+.menu ul li ul span {
+background: url('/web/20190605095523im_/http://www.azulfm.com.uy/img/flecha.png');
+margin: -20px 60px;
+width: 20px;
+height: 10px;
+position: absolute;
+}
+
+.menu ul li ul {
+	display: none; 
+	background: #001d61;
+	padding: 10px 0;
+	position: absolute;
+	margin: -12px -20px;
+	}
+
+.menu ul li:hover ul {
+	display: block;
+	}
+
+.menu ul li ul li {
+	display: block;
+	float: none;
+	position: relative;
+	padding: 0 20px;
+	line-height: 30px;
+	}
+
+.menu ul li ul li a{
+	color: #ccc;
+	}
+
+.menu ul li ul li a:hover {
+color: white;
+}
+
+#menu_i {
+float: left;
+width: 54px;
+height: 80px;
+background: transparent url('/web/20190605095523im_/http://www.azulfm.com.uy/img/bgmenu_i.png') no-repeat;
+margin-left: -16px;
+}
+
+
+#menu_d{
+float: right;
+width: 54px;
+height: 80px;
+background: transparent url('/web/20190605095523im_/http://www.azulfm.com.uy/img/bgmenu_d.png') no-repeat;
+margin-right: -16px;
+}
+
+.menu li a:hover {
+color: white;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------*/
+/* IZQUIERDA DE LA PAGINA */
+.banners {
+	width: 700px;
+	min-height: 800px;
+	float: left;
+	}
+
+.aire {
+	width: 700px;
+	height: 50px;
+}
+.main {
+	width: 700px;
+	min-height: 800px;
+	float: left;
+}
+.main h2 {
+	font-weight: lighter;
+	font-size: xx-large;
+}
+.main h3 {
+	font-weight: lighter;
+	font-size: x-large;
+}
+.main h4 {
+	font-weight: lighter;
+	font-size: medium;
+}
+.main a {
+	color: #001d61;
+	text-decoration: underline;
+	font-style: italic;
+}
+
+.logo {
+	text-align: center;
+}
+.derecha {
+	float: left;
+	width: 250px;
+	border: #878787 solid 1px;
+	background-color: #E1E1E1;
+	padding: 3px;
+	margin: 0px 15px 5px 0px;
+}
+.novedades {
+	width: 700px;
+	float: left;
+	margin: 0px 15px 5px 5px;
+	border-bottom: dotted 2px #001d61;
+}
+
+.novedades h1 {
+	color: #FF7F2A;
+	font-size: x-large;
+	margin: 10px 5px 10px 10px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #001d61;
+}
+.novedades p {
+	margin: 0px 5px 2px 10px;
+	color: #787878;
+	font-weight: lighter;
+}
+.novedades p:first-letter {
+	font-weight: bold;
+	color: #001d61;
+	}
+.like {
+	margin: 5px 2px 2px 5px;
+}
+
+.imagen {
+	margin: auto;
+	text-align: center;
+	width: 610px;
+	padding: 5px;
+	border: #878787 solid 1px;
+	background-color: #E1E1E1;
+}
+
+.imagen2 {
+	margin: auto;
+	text-align: center;
+	width: 700px;
+	padding: 0px;	
+}
+
+/*------------------------------------------------------------------------------------------------------------------*/
+/* DERECHA DE LA PAGINA*/
+
+.anuncios {
+	width: 300px;
+	float: left;
+	text-align: left;
+}
+.tit_empresa {
+	font-size: larger;
+	padding: 0px;
+	margin-bottom: 2px;
+	color: #E1E1E1;
+	background-color: #001d61;
+	height: 40px;
+}
+
+.tit_empresa span {
+	position: relative;
+	left: 68px;
+	top: 10px;
+}
+
+.tit_twitter {
+	font-size: larger;
+	color: #9D9DCE;
+	background-color: #001d61;
+	height: 50px;
+	margin-bottom: 1px;
+	}
+
+.tit_twitter span {
+	position: relative;
+	top: -6px;
+}
+
+.empresa {
+	padding: 5px 10px 10px 10px;
+	margin-bottom: 2px;
+	background-color: #D2D2D2;
+	color: #001d61;
+	border-bottom: #001d61 solid 1px;
+}
+
+.empresa h6 {
+	margin-bottom: 5px;
+	font-size: medium;
+	font-weight: lighter;
+	}
+
+.p_empre_mini {
+	font-size: smaller;
+	font-weight: lighter;
+	font-style: italic;
+}
+.vinculo_empre_mini {
+	font-size: smaller;
+	font-weight: lighter;
+	color: #001d61;
+	}
+
+.menu2 {
+	width: 250px;
+	float: left;
+	padding: 0px;
+	background-color: #fff;
+	}
+
+.menu2 h4 {
+	padding: 10px 20px;
+	}
+.menu2 h2 {
+	margin-left: 60px;
+	padding: 30px 0px 10px 0px;
+	}
+.menu2 div {
+	margin: 0px 0px;
+	} 
+.menu2 ul {
+	font-size: 20px;
+	text-transform: capitalize;
+	color: #666;
+	}
+.menu2 ul li {
+	border-left: 5px solid #001d61;
+	margin-top: 12px;
+	}
+.like {
+	margin: 10px 0px 10px 20px;
+	width: 250px;
+	}
+.facebook {
+	padding: 0px;
+	margin: 0px 0px 10px 10px;
+	}
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------------*/
+/* pie de pagina */
+.footer {
+	width: 1000px;
+	height: 31px;
+	clear: both;
+	background-color: #001d61;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #001d61;
+	}
+.footer span{
+	margin: 10px 10px;
+	font-family: Arial, sans-serif;
+	text-decoration: none;
+	color: white;
+	}
+	
+/* tabla programacion ------------------------------------------------------------*/
+.programas {
+	width: 100%;
+	border-collapse:collapse;
+}
+.main th {
+	border-bottom: 1px solid #787878;
+	border-top: 1px solid #787878;;
+	height: 50px;
+	background-color: #FFD4AA;
+	color: #001d61;
+	padding: 3px 5px;
+}
+.programas tr td {
+	min-width: 75px;
+	max-width: 500px;
+	border: 1px solid #787878;
+	height: 50px;
+	padding: 3px 5px;
+}
+.programas tr.alt {
+	background-color: #E1E1E1;
+}
+.programas tr.foot td{
+	width: 100%;
+	height: 20px;
+	background-color: #324A85;
+}
+/* fin tabla programacion ---------------------------------------------------------*/
+/*
+     FILE ARCHIVED ON 09:55:23 Jun 05, 2019 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 20:54:10 Jul 13, 2022.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 716.275
+  exclusion.robots: 191.254
+  exclusion.robots.policy: 191.248
+  xauthn.identify: 145.024
+  xauthn.chkprivs: 45.999
+  RedisCDXSource: 20.053
+  esindex: 0.018
+  LoadShardBlock: 488.509 (3)
+  PetaboxLoader3.datanode: 190.902 (5)
+  CDXLines.iter: 13.925 (3)
+  PetaboxLoader3.resolve: 332.659 (4)
+  load_resource: 323.914 (2)
+*/

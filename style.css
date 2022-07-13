@@ -1,0 +1,110 @@
+html {
+	color:#000;
+	background:#001d61;
+	}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h4,h5,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td {
+	margin:0;
+	padding:0;
+	}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+	}
+fieldset,img {
+	border:0;
+	}
+address,caption,cite,code,dfn,em,strong,th,var {
+	font-style:normal;
+	font-weight:normal;
+	}
+li {
+	list-style:none;
+	}
+caption,th {
+	text-align:left;
+	}
+h1,h2,h3,h4,h5,h6 {
+	font-size:100%;
+	font-weight:normal;
+	}
+q:before,q:after {
+	content:'';
+	}
+abbr,acronym {
+	border:0;
+	font-variant:normal;
+	}
+sup {
+	vertical-align:text-top;
+	}
+sub {
+	vertical-align:text-bottom;
+	}
+input,textarea,select {
+	font-family:inherit;
+	font-size:inherit;
+	font-weight:inherit;
+	}
+input,textarea,select {
+	font-size:100%;
+	}
+legend {
+	color:#000;
+	}
+
+small {font-style:italic; }
+
+#tweets {
+	background: #d07a15 url('/web/20190605111720im_/http://www.azulfm.com.uy/images/interface_dark.png') repeat;
+	-moz-border-radius: 6px;
+	border-radius: 6px; 
+	-webkit-box-shadow:  1px 1px 1px #0f0f0f;
+	-moz-box-shadow: 1px 1px 1px #0f0f0f;
+	box-shadow: 1px 1px 1px #0f0f0f; 	
+}
+
+#tweets li {
+	padding: 5px;
+	color:#FFFFFF;
+	border-bottom:1px solid #000000;
+	border-top:1px solid #353434;
+	line-height:150%;
+}
+
+#tweets li.tweet_content_0 {
+	border-top:0px none;
+}
+#tweets li:last-child{
+	border-bottom:0px none;	
+}
+
+#tweets .hash { color:#FFF; } 
+#tweets .reply { color:#FFF; } 
+
+a:link { text-decoration:underline; color:#FFF;}
+a:active { text-decoration:underline; color:#FFF;}
+a:hover { text-decoration:underline; color:#FFF;}
+a:visited { text-decoration:underline; color:#FFF;}
+/*
+     FILE ARCHIVED ON 11:17:20 Jun 05, 2019 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 20:54:20 Jul 13, 2022.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 395.295
+  exclusion.robots: 243.978
+  exclusion.robots.policy: 243.971
+  xauthn.identify: 201.287
+  xauthn.chkprivs: 42.412
+  cdx.remote: 0.091
+  esindex: 0.007
+  LoadShardBlock: 117.271 (3)
+  PetaboxLoader3.datanode: 162.089 (5)
+  CDXLines.iter: 18.142 (3)
+  load_resource: 282.867 (2)
+  PetaboxLoader3.resolve: 162.631 (2)
+*/
